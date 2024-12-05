@@ -1,0 +1,47 @@
+insert into matiere(code_matiere, nom_matiere, credit, est_optionnelle, id_semestre) values
+    ('INF101', 'Programmation procédurale', 7, false, 1),
+    ('INF104', 'HTML et Introduction au Web', 5, false, 1),
+    ('INF107', 'Informatique de Base', 4, false, 1),
+    ('MTH101', 'Arithmétique et nombres', 4, false, 1),
+    ('MTH102', 'Analyse mathématique', 6, false, 1),
+    ('ORG101', 'Technique de communication', 4, false, 1),
+
+    ('INF102', 'Bases de données relationnelles', 5, false, 2),
+    ('INF103', 'Base de l''administration système', 5, false, 2),
+    ('INF105', 'Maintenance matériel et logiciel', 4, false, 2),
+    ('INF106', 'Compléments de programmation', 6, false, 2),
+    ('MTH103', 'Calcul Vectoriel et Matriciel', 6, false, 4),
+    ('MTH105', 'Probabilité et Statistique', 4, false, 2),
+
+    ('INF201', 'Programmation orientée objet', 6, false, 3),
+    ('INF202', 'Bases de données objets', 6, false, 3),
+    ('INF203', 'Programmation système', 4, false, 3),
+    ('INF208', 'Réseaux informatiques', 6, false, 3),
+    ('MTH201', 'Méthodes numériques', 4, false, 3),
+    ('ORG201', 'Bases de gestion', 4, false, 3),
+
+    ('INF204', 'Système d''information géographique', 6, true, 4),
+    ('INF205', 'Système d''information', 6, true, 4),
+    ('INF206', 'Inerface Homme/Machine', 6, true, 4),
+    ('INF207', 'Eléments d''algorithmique', 6, false, 4),
+    ('INF210', 'Mini-projet de développement', 10, false, 4),
+    ('MTH204', 'Géométrie', 4, true, 4),
+    ('MTH205', 'Equations différentielles', 4, true, 4),
+    ('MTH206', 'Optimisation', 4, true, 4),
+    ('MTH203', 'MAO', 4, false, 4),
+
+    ('INF301', 'Architecture logicielle', 6, false, 5),
+    ('INF304', 'Développement pour mobiles', 6, false, 5),
+    ('INF307', 'Conception en modèle orienté objet', 6, false, 5),
+    ('ORG301', 'Gestion d''entreprise', 5, false, 5),
+    ('ORG302', 'Gestion de projets', 4, false, 5),
+    ('ORG303', 'Anglais pour les affaires', 3, false, 5),
+    /* ('INF302', 'Technologie d''accès aux réseaux', 6, true, 6),
+    ('INF303', 'Multimédia', 6, true, 6), */
+
+    ('INF310', 'Codage', 4, false, 6),
+    ('INF313', 'Programmation avancée, frameworks', 6, false, 6),
+    ('INF302', 'Technologie d''accès aux réseaux', 6, true, 6),
+    ('INF303', 'Multimédia', 6, true, 6),
+    ('INF316', 'Projet de développement', 10, false, 6),
+    ('ORG304', 'Communication d''entreprise', 4, false, 6);
